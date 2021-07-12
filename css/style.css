@@ -1,0 +1,209 @@
+@charset "UTF-8";
+p {
+  margin-bottom: 0;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+.titleView {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.titleView .titleBlock {
+  font-weight: bold;
+  font-size: 20px;
+}
+.titleView .view {
+  font-size: 16px;
+  color: #0079ff;
+}
+
+.latestUpdates__block {
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.latestUpdates__block .block__img {
+  background: sandybrown;
+  width: 100px;
+  height: 144px;
+  border-radius: 6px;
+}
+.latestUpdates__block .block__text {
+  margin-left: 15px;
+  font-size: 16px;
+}
+.latestUpdates__block .block__text p {
+  margin-bottom: 0;
+}
+.latestUpdates__block .block__text .text__name {
+  font-weight: bold;
+}
+.latestUpdates__block .block__text .text__author {
+  color: #ff6f29;
+}
+.latestUpdates__block .block__text .text__genre {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.latestUpdates__block .block__text .episodeDay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.latestUpdates__block .block__text .episodeDay .episode {
+  font-size: 14px;
+  padding-right: 20px;
+}
+.latestUpdates__block .block__text .episodeDay .dayAgo {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #7d7c7c;
+}
+@media screen and (max-width: 968px) {
+  .latestUpdates__block .block__text .episodeDay {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .latestUpdates__block .block__text .episodeDay {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.centralBlock {
+  height: 300px;
+  width: 100%;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#e69f42), to(#ffffff));
+  background: linear-gradient(to right, #e69f42, #ffffff);
+}
+.centralBlock .centralBlock__title {
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  font-size: 20px;
+}
+.centralBlock .centralBlock__popular {
+  font-size: 16px;
+}
+.centralBlock .centralBlock__btn {
+  width: 129px;
+  height: 40px;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.newСomics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+.newСomics .newComics__title {
+  font-size: 20px;
+}
+.newСomics .newСomics__view {
+  font-size: 16px;
+  color: #0079ff;
+}
+
+.newСomics_block {
+  width: 100%;
+  display: block;
+}
+.newСomics_block .img {
+  width: 196px;
+  height: 284px;
+  border-radius: 6px;
+  background: royalblue;
+}
+.newСomics_block .heading {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 5px 0 0 0;
+  letter-spacing: 0;
+  max-width: 196px;
+}
+.newСomics_block .writer {
+  text-transform: capitalize;
+  color: orange;
+  margin: 5px 0;
+}
+.newСomics_block .meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.newСomics_block .meta .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.newСomics_block .meta .comment .comment-bg {
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+}
+.newСomics_block .meta .comment .comment-count {
+  margin-right: 5px;
+  margin: 0 3px;
+}
+.newСomics_block .meta .likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.newСomics_block .meta .likes .likes-bg {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  background-color: grey;
+}
+.newСomics_block .meta .likes .likes-count {
+  margin-right: 5px;
+}
+.newСomics_block .meta .views {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.newСomics_block .meta .views .views-bg {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  background-color: grey;
+}

@@ -1,0 +1,174 @@
+p {
+  margin-bottom: 0;
+}
+main {
+    margin-bottom: 50px;
+  }
+  .titleView {
+    display: flex;
+    justify-content: space-between;
+    .titleBlock {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .view {
+      font-size: 16px;
+      color: rgb(0 121 255);
+    }
+  }
+  
+  .latestUpdates__block {
+    padding: 12px;
+    display: flex;
+    width: 100%;
+    .block__img {
+      background: sandybrown;
+      width: 100px;
+      height: 144px;
+      border-radius: 6px;
+    }
+    .block__text {
+      margin-left: 15px;
+      font-size: 16px;
+      p {
+        margin-bottom: 0;
+      }
+      .text__name {
+        font-weight: bold;
+      }
+      .text__author {
+        color: rgb(255 111 41);
+      }
+      .text__genre {
+        font-size: 14px;
+        color: rgb(127 127 127);
+      }
+      .episodeDay {
+        display: flex;
+        flex-direction: row;
+        .episode {
+          font-size: 14px;
+          padding-right: 20px;
+        }
+        .dayAgo {
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          color: rgb(125, 124, 124);
+        }
+      }
+  
+      @media screen and (max-width: 968px) {
+        .episodeDay {
+          flex-direction: column;
+        }
+      }
+      @media screen and (max-width: 576px) {
+        .episodeDay {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+  .centralBlock {
+    height: 300px;
+    width: 100%;
+    color: white;
+    background: linear-gradient(to right, #e69f42, #ffffff);
+    .centralBlock__title {
+      font-family: "Helvetica Neue", sans-serif, sans-serif;
+      font-size: 20px;
+    }
+    .centralBlock__popular {
+      font-size: 16px;
+    }
+    .centralBlock__btn {
+      width: 129px;
+      height: 40px;
+      background-color: #fff;
+      color: black;
+      font-size: 14px;
+      border-radius: 6px;
+    }
+  }
+  
+  .newСomics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .newComics__title {
+      font-size: 20px;
+    }
+    .newСomics__view {
+      font-size: 16px;
+      color: rgb(0 121 255);
+    }
+  }
+  
+  .newСomics_block {
+    width: 100%;
+    display: block;  
+    .img {
+      width: 196px;
+      height: 284px;
+      border-radius: 6px;
+      background: royalblue;
+    }
+    .heading {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: capitalize;
+      margin: 5px 0 0 0;
+      letter-spacing: 0;
+      max-width: 196px;
+    }
+    .writer {
+      text-transform: capitalize;
+      color: orange;
+      margin: 5px 0;
+    }
+    .meta {
+      display: flex;
+      margin-bottom: 50px;
+      font-size: 12px;
+      font-weight: bold;
+      white-space: nowrap;
+      .comment {
+        display: flex;
+        .comment-bg {
+          width: 20px;
+          height: 20px;
+          background-color: grey;
+        }
+        .comment-count {
+          margin-right: 5px;
+          margin: 0 3px;
+        }
+      }
+      .likes {
+        display: flex;
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+        .likes-bg {
+          width: 20px;
+          height: 20px;
+          margin: 0 3px;
+          background-color: grey;
+        }
+        .likes-count {
+          margin-right: 5px;
+        }
+      }
+      .views {
+        display: flex;
+        .views-bg {
+          width: 20px;
+          height: 20px;
+          margin: 0 3px;
+          background-color: grey;
+        }      
+      }      
+    }   
+  }
+
+  
